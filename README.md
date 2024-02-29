@@ -2,9 +2,9 @@
 
 ## Objetivo
 
-En el proyecto anterior del bootcamp de desarrollo de Develhope, nuestro equipo se propuso replicar la página de inicio de Electronic Arts (https://www.ea.com/) utilizando HTML, CSS y JavaScript.
+En el proyecto anterior del bootcamp de desarrollo web Fullstack de Develhope, nuestro equipo se propuso replicar la página de inicio de Electronic Arts (https://www.ea.com/) utilizando HTML, CSS y JavaScript.
 
-El objetivo principal de este tercer proyecto es utilizar la tecnología React para recrear esta misma página. Para ello, reutilizaremos recursos utilizados en el segundo proyecto (imagenes, font-size y estilos).
+El objetivo principal de este tercer proyecto es utilizar la tecnología React para recrear esta misma página. Para ello, reutilizaremos recursos del segundo proyecto (imagenes, font-size y estilos).
 
 ## Tecnologías Utilizadas
 
