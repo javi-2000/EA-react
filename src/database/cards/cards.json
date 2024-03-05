@@ -1,0 +1,476 @@
+{
+  "tabs": [
+    {
+      "id": 1,
+      "content": [
+        {
+          "cardId": 1,
+          "name": "Electronic Arts Inc.",
+          "date": "Jan 30, 2024",
+          "image": "./src/media/cards/images/Noticias_EA/1.png",
+          "title": "Electronic Arts Reports Strong Q3 FY24 Results",
+          "description": "Electronic Arts Inc. (NASDAQ: EA) today announced preliminary financial results for its third quarter ended December 31, 2023."
+        },
+        {
+          "cardId": 2,
+          "name": "Electronic Arts Inc.",
+          "date": "Jan 18, 2024",
+          "image": "./src/media/cards/images/Noticias_EA/2.png",
+          "title": "Unlocking Opportunities: A Look into Life at EA",
+          "description": "Electronic Arts Recruiter Kirk Chavarie shares his knowledge about the company’s culture, values, and career development opportunities"
+        },
+        {
+          "cardId": 3,
+          "name": "Frostbite",
+          "date": "Dec 18, 2023",
+          "image": "./src/media/cards/images/Noticias_EA/3.png",
+          "title": "Announcing a new look and vision for EA's Frostbite engine",
+          "description": "Electronic Arts’ 2024 Frostbite rebrand signals a new, more collaborative era for its cutting-edge game engine."
+        },
+        {
+          "cardId": 4,
+          "name": "Electronic Arts Inc.",
+          "date": "Dec 14, 2023",
+          "image": "./src/media/cards/images/Noticias_EA/4.png",
+          "title": "2023: A Year Powered by Interactive Entertainment",
+          "description": "Year in Gaming 2023: Reflecting on the Electronic Arts games that engaged and inspired our global player communities this year"
+        },
+        {
+          "cardId": 5,
+          "name": "Maxis",
+          "date": "Dec 14, 2023",
+          "image": "./src/media/cards/images/Noticias_EA/5.jpg",
+          "title": "Behind The Sims 4 ‘For Rent’ Expansion Pack",
+          "description": "The designers at Maxis reveal how the all-new Residential Rentals bring Sims-style storytelling to multi-unit living."
+        },
+        {
+          "cardId": 6,
+          "name": "Electronic Arts Inc.",
+          "date": "Dec 13, 2023",
+          "image": "./src/media/cards/images/Noticias_EA/6.png",
+          "title": "Celebrating a Milestone Year for EA SPORTS ",
+          "description": "It’s been a huge year for EA SPORTS, and we’re reflecting on some of our biggest achievements and efforts across our games, communities, and teams as we head into the New Year."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "content": [
+        {
+          "cardId": 7,
+          "name": "Feb 2, 2024",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/1.jpg",
+          "title": "Update on TOTY 86+ Leagues SBC - EA SPORTS Official Site",
+          "description": ""
+        },
+        {
+          "cardId": 8,
+          "name": "Dec 5, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/2.jpg",
+          "title": "EA SPORTS FC™ 24 | Pitch Notes - Holiday Update",
+          "description": "The Holiday Update (Title Update #6) is upon us and we’re eager to tell you all about the exciting changes and additions to EA SPORTS FC™ 24."
+        },
+        {
+          "cardId": 9,
+          "name": "Nov 23, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/3.jpg",
+          "title": "EA SPORTS FC™ 24 - UEFA EURO 2024",
+          "description": "EA SPORTS FC 24 is welcoming UEFA EURO 2024™ to the Club—play now and get a UEFA EURO 2024 player in Ultimate Team™."
+        },
+        {
+          "cardId": 10,
+          "name": "Nov 3, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/4.jpg",
+          "title": "Ultimate Team™ 24 - Pundit Picks",
+          "description": "Introducing Pundit Picks to Ultimate Team™ 24"
+        },
+        {
+          "cardId": 11,
+          "name": "Oct 26, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/5.jpg",
+          "title": "24 Days of EA SPORTS FC™ 24  - EA SPORTS Official Site",
+          "description": "Welcome to the Club: Check out The Latest Achievements From The Community In The First 24 Days of FC 24"
+        },
+        {
+          "cardId": 12,
+          "name": "Oct 26, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/6.jpg",
+          "title": "EA SPORTS FC 24 - FC Founder adidas Offer - EA SPORTS Official Site",
+          "description": "EA SPORTS FC 24 and adidas have teamed up to give our FC Founders 25% off eligible items at www.adidas.com/ea_sports"
+        },
+        {
+          "cardId": 13,
+          "name": "Sep 22, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/7.jpg",
+          "title": "EA SPORTS FC™ 24 - Pack Probabilities",
+          "description": "See Pack probabilities in EA SPORTS FC™ 24, which will detail the likelihood of what you will get in the Packs you purchase."
+        },
+        {
+          "cardId": 14,
+          "name": "Sep 22, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/8.jpg",
+          "title": "EA SPORTS FC™ 24 | PC Update",
+          "description": "Explore the PC updates coming to EA SPORTS FC™ 24 addressing community feedback."
+        },
+        {
+          "cardId": 15,
+          "name": "Sep 20, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/9.png",
+          "title": "EA SPORTS FC 24 | Pitch Notes - PlayStyles Deep Dive",
+          "description": "Use this as a PlayStyles guide as you jump into EA SPORTS FC 24."
+        },
+        {
+          "cardId": 16,
+          "name": "Sep 20, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/10.png",
+          "title": "EA SPORTS FC 24 | Pitch Notes - Nintendo Switch Deep Dive",
+          "description": "EA SPORTS FC™ 24 on Switch is getting a significant upgrade with the Frostbite Engine and will have feature parity with PS4 and Xbox One."
+        },
+        {
+          "cardId": 17,
+          "name": "Sep 18, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/11.jpg",
+          "title": "EA SPORTS FC™ 24 Ratings - Hidden Gems in Manager Career",
+          "description": "Meet the players every Manager's been looking for.Here are the players with the largest room for growth in EA SPORTS FC 24."
+        },
+        {
+          "cardId": 18,
+          "name": "Sep 18, 2023",
+          "date": "",
+          "image": "./src/media/cards/images/Fifa/12.jpg",
+          "title": "EA SPORTS FC™ 24 Ratings - Highest Potential in Manager Career",
+          "description": "These players are headed straight to the top.Here are the players with the highest potential in EA SPORTS FC 24"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "content": [
+        {
+          "cardId": 19,
+          "name": "Apex Legends",
+          "date": "Feb 6, 2024",
+          "image": "./src/media/cards/images/Apex/1.png",
+          "title": "Apex Legends™: Breakout Rewards",
+          "description": "Everything to know about the upcoming Breakout Rewards in Apex Legends™."
+        },
+        {
+          "cardId": 20,
+          "name": "Apex Legends",
+          "date": "Feb 5, 2024",
+          "image": "./src/media/cards/images/Apex/2.png",
+          "title": "New Updates Coming With Apex Legends™: Breakout",
+          "description": "Get a peek at game updates coming in Breakout including Legend Upgrades, Ranked, Thunderdome, and more."
+        },
+        {
+          "cardId": 21,
+          "name": "Apex Legends",
+          "date": "Jan 16, 2024",
+          "image": "./src/media/cards/images/Apex/3.jpg",
+          "title": "Year 4 Pro League: Everything You Need to Know",
+          "description": "Good news - the ALGS Pro league is back and kicks off January 20-21, 2024! Click for competitors, schedules, groups, talent, and more!"
+        },
+        {
+          "cardId": 22,
+          "name": "Apex Legends",
+          "date": "Jan 8, 2024",
+          "image": "./src/media/cards/images/Apex/4.jpg",
+          "title": "Apex Legends™: Ignite Mid-Season Patch Notes",
+          "description": "Get ready for the next patch ahead of tomorrow’s launch with our full Patch Notes."
+        },
+        {
+          "cardId": 23,
+          "name": "Apex Legends",
+          "date": "Jan 4, 2024",
+          "image": "./src/media/cards/images/Apex/5.png",
+          "title": "Apex Legends™ & FINAL FANTASY™ VII REBIRTH Event",
+          "description": "Unleash your Limit Break with a new Takeover featuring the Buster Sword R2R5, Materia Hop-Ups, Final Fantasy™-inspired cosmetics & more!"
+        },
+        {
+          "cardId": 24,
+          "name": "Apex Legends",
+          "date": "Nov 30, 2023",
+          "image": "./src/media/cards/images/Apex/6.png",
+          "title": "Year 4: Partnership Program",
+          "description": "Learn more about the ALGS Partnership Program and our 12 Partner Teams"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "content": [
+        {
+          "cardId": 25,
+          "name": "Madden",
+          "date": "Feb 7, 2024",
+          "image": "./src/media/cards/images/NFL/1.png",
+          "title": "MADDEN NFL 24 - MCS ULTIMATE MADDEN BOWL PRESENTED BY LEXUS",
+          "description": "Two of the best Madden NFL 24 players are ready to face off in the Madden NFL 24 Championship Series (“MCS 24”) Ultimate Madden Bowl Presented by Lexus and compete for their share of a $1,000,000 USD prize pool and title of b…"
+        },
+        {
+          "cardId": 26,
+          "name": "Madden",
+          "date": "Jan 29, 2024",
+          "image": "./src/media/cards/images/NFL/2.jpg",
+          "title": "Madden NFL 24 - Title Update January 29th, 2024",
+          "description": "Learn more about the updates coming to Madden NFL 24"
+        },
+        {
+          "cardId": 27,
+          "name": "Madden",
+          "date": "Jan 10, 2024",
+          "image": "./src/media/cards/images/NFL/3.jpg",
+          "title": "Madden NFL 24 - Title Update January 10th, 2024",
+          "description": "Learn more about the updates coming to Madden NFL 24"
+        },
+        {
+          "cardId": 28,
+          "name": "Madden",
+          "date": "Jan 10, 2024",
+          "image": "./src/media/cards/images/NFL/4.png",
+          "title": "Madden Nfl 24 - Season 4: Light It Up",
+          "description": "Upgrade the Field Pass to earn NFL icons like Ray Lewis that flourished in the spotlight. Keep upgrading your Ultimate Team with postseason heroes during the Playoffs and celebrate the Super Bowl with current contenders and l…"
+        },
+        {
+          "cardId": 29,
+          "name": "Madden",
+          "date": "Jan 8, 2024",
+          "image": "./src/media/cards/images/NFL/5.png",
+          "title": "MADDEN 24 NFL - MCS PLAYOFF CHALLENGE FINALISTS",
+          "description": "The final four players are ready to face off in the Madden NFL 24 Championship Series (“MCS 24”) Playoffs Challenge tournament to win their share of a $125,000 USD prize pool."
+        },
+        {
+          "cardId": 30,
+          "name": "Madden",
+          "date": "Dec 7, 2023",
+          "image": "./src/media/cards/images/NFL/6.jpg",
+          "title": "Madden NFL 24 Ultimate Team Zero Chill - EA SPORTS",
+          "description": "Zero Chill delivers the coolest Madden Ultimate Team rewards of the year, starting 12/7."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "content": [
+        {
+          "cardId": 31,
+          "name": "Star Wars™ Galaxy of Heroes",
+          "date": "Feb 7, 2024",
+          "image": "./src/media/cards/images/SW/1.png",
+          "title": "Kit Reveal - Stap",
+          "description": "Check out the abilities of  Stap in this Kit Reveal!"
+        },
+        {
+          "cardId": 32,
+          "name": "Star Wars™ Galaxy of Heroes",
+          "date": "Jan 30, 2024",
+          "image": "./src/media/cards/images/SW/2.jpg",
+          "title": "February Calendar Preview",
+          "description": " Check out the upcoming events!"
+        },
+        {
+          "cardId": 33,
+          "name": "Star Wars™ Galaxy of Heroes",
+          "date": "Jan 17, 2024",
+          "image": "./src/media/cards/images/SW/3.png",
+          "title": "Kit Reveal - Comeuppance",
+          "description": "Check out the abilities of  Comeuppance in this Kit Reveal!"
+        },
+        {
+          "cardId": 34,
+          "name": "Star Wars™ Galaxy of Heroes",
+          "date": "Dec 26, 2023",
+          "image": "./src/media/cards/images/SW/4.jpg",
+          "title": "January Calendar Preview",
+          "description": "Check out the upcoming events!"
+        },
+        {
+          "cardId": 35,
+          "name": "Star Wars™ Galaxy of Heroes",
+          "date": "Dec 19, 2023",
+          "image": "./src/media/cards/images/SW/5.png",
+          "title": "Kit Reveal - Bo-Katan Bo-Katan (Mand’alor)",
+          "description": "Check out the abilities of  Bo-Katan (Mand’alor) in this Kit Reveal!"
+        },
+        {
+          "cardId": 36,
+          "name": "Star Wars™ Galaxy of Heroes",
+          "date": "Dec 19, 2023",
+          "image": "./src/media/cards/images/SW/6.png",
+          "title": "Kit Reveal - Darth Bane",
+          "description": "Check out the abilities of  Darth Bane in this Kit Reveal!"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "content": [
+        {
+          "cardId": 37,
+          "name": "The Sims 4",
+          "date": "Jan 25, 2024",
+          "image": "./src/media/cards/images/Sims/1.jpg",
+          "title": "Discord Stream Recap: Our Developers Dive into the Goth Galore and Castle E…",
+          "description": "Couldn’t make the stream? Catch up on everything you need to know here!"
+        },
+        {
+          "cardId": 38,
+          "name": "The Sims 4",
+          "date": "Jan 16, 2024",
+          "image": "./src/media/cards/images/Sims/2.jpg",
+          "title": "Update 1/16/2024",
+          "description": " Did someone call for some fixes?"
+        },
+        {
+          "cardId": 39,
+          "name": "The Sims 4",
+          "date": "Jan 16, 2024",
+          "image": "./src/media/cards/images/Sims/3.png",
+          "title": "The Sims 4 Castle Estate and Goth Galore Kits Are Here",
+          "description": "Bring all the dramatics to your next story!"
+        },
+        {
+          "cardId": 40,
+          "name": "The Sims 4",
+          "date": "Jan 11, 2024",
+          "image": "./src/media/cards/images/Sims/4.png",
+          "title": "The Sims 4 - Sensationally You",
+          "description": "2 Highly Anticipated Kits, 1 Beautiful SDX Drop, 1 Sparkling Stuff Pack, 1 Celebratory Kit, and 1 Co-created Style Kit"
+        },
+        {
+          "cardId": 41,
+          "name": "The Sims 4",
+          "date": "Dec 18, 2023",
+          "image": "./src/media/cards/images/Sims/5.png",
+          "title": "Have an Outrageous Rental Story? ",
+          "description": "Australian-Filipino creators Angelo and Alexandra Marasigan share some of your wildest experiences"
+        },
+        {
+          "cardId": 42,
+          "name": "The Sims 4",
+          "date": "Dec 14, 2023",
+          "image": "./src/media/cards/images/Sims/2.jpg",
+          "title": "Update 12/14/2023",
+          "description": "Fast-Track Fixes for four For Rent faults!"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "content": [
+        {
+          "cardId": 43,
+          "name": "F1® 23",
+          "date": "Dec 22, 2023",
+          "image": "./src/media/cards/images/F1/1.jpg",
+          "title": "EA SPORTS™ F1® – MCLAREN RESURGENCE",
+          "description": "Unlock special McLaren-themed items to commemorate the team’s rise to the top end of the 2023 grid"
+        },
+        {
+          "cardId": 44,
+          "name": "F1® 23",
+          "date": "Dec 12, 2023",
+          "image": "./src/media/cards/images/F1/2.png",
+          "title": "EA SPORTS™ F1® - MAX CELEBRATION",
+          "description": "A sensational year for you to relive"
+        },
+        {
+          "cardId": 45,
+          "name": "F1® 23",
+          "date": "Dec 7, 2023",
+          "image": "./src/media/cards/images/F1/3.png",
+          "title": "F1® 23 DRIVER RATINGS UPDATE (END OF SEASON)",
+          "description": "The final F1® 23’s Driver Ratings update is here, taking into account Las Vegas and the curtain-closer in Abu Dhabi"
+        },
+        {
+          "cardId": 46,
+          "name": "F1® 23",
+          "date": "Oct 16, 2023",
+          "image": "./src/media/cards/images/F1/4.jpg",
+          "title": "F2™ 2023 AND SPORTS UPDATE HAS ARRIVED",
+          "description": "Relive this year’s Formula 2™ season right now in F1® 23"
+        },
+        {
+          "cardId": 47,
+          "name": "F1® 23",
+          "date": "Oct 16, 2023",
+          "image": "./src/media/cards/images/F1/5.jpg",
+          "title": "F1® 23 PATCH NOTES (v1.15)",
+          "description": "Two big changes arrive with this update in the Sports Update and F2™ 23"
+        },
+        {
+          "cardId": 48,
+          "name": "F1® 23",
+          "date": "Sep 19, 2023",
+          "image": "./src/media/cards/images/F1/6.png",
+          "title": "F1® 23 DRIVER RATINGS UPDATE (SEPTEMBER)",
+          "description": "The Dutch and Italian Grands Prix are the latest to be included in this F1® 23’s Driver Ratings update"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "content": [
+        {
+          "cardId": 49,
+          "name": "Battlefield 2042",
+          "date": "Jan 26, 2024",
+          "image": "./src/media/cards/images/BT/1.png",
+          "title": "BATTLEFIELD 2042 UPDATE #6.3.0",
+          "description": "Update 6.3.0 includes a new Squad Spectator Modifier and further balance changes to Battlefield 2042!"
+        },
+        {
+          "cardId": 50,
+          "name": "Battlefield 2042",
+          "date": "Jan 12, 2024",
+          "image": "./src/media/cards/images/BT/2.jpg",
+          "title": "BATTLEFIELD 2042 UPDATE #6.2.1",
+          "description": "Small Hotfix Update for Battlefield 2042!"
+        },
+        {
+          "cardId": 51,
+          "name": "Battlefield 2042",
+          "date": "Dec 1, 2023",
+          "image": "./src/media/cards/images/BT/3.jpg",
+          "title": "BATTLEFIELD 2042 UPDATE #6.2.0",
+          "description": "Take a look at the latest Battlefield 2042 Update Notes featuring Weapon Balancing, Air Vehicle Improvements and more."
+        },
+        {
+          "cardId": 52,
+          "name": "Battlefield 2042",
+          "date": "Nov 30, 2023",
+          "image": "./src/media/cards/images/BT/4.jpg",
+          "title": "Dev Notes - State of Vehicle Gameplay",
+          "description": "Season 6, Vehicle Gameplay"
+        },
+        {
+          "cardId": 53,
+          "name": "Battlefield 2042",
+          "date": "Oct 27, 2023",
+          "image": "./src/media/cards/images/BT/5.jpg",
+          "title": "BATTLEFIELD 2042 UPDATE #6.1.0",
+          "description": "Battlefield 2042 Update #6.1.0 introduces further Quality of Life Improvements alongside our Limited Time Event, Dark Protocol."
+        },
+        {
+          "cardId": 54,
+          "name": "Battlefield 2042",
+          "date": "Oct 26, 2023",
+          "image": "./src/media/cards/images/BT/6.jpg",
+          "title": "Battlefield Briefing – Dark Protocol",
+          "description": "Dark Protocol Event, limited-time Killswitch game mode"
+        }
+      ]
+    }
+  ]
+}
