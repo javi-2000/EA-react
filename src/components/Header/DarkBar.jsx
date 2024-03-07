@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../../styles/header/darkbar.css";
+import DarkBarWrapper from "./DarkBarItem";
 
 export default function DarkBar() {
   const [showContent, setShowContent] = useState("");
