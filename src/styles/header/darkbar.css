@@ -1,0 +1,92 @@
+.darkbar-wrapper {
+  display: flex;
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  /* padding: 0.5rem; */
+  max-height: 0;
+  right: 0;
+  overflow: hidden;
+  top: 100%;
+  background-color: #161616;
+  transition: ease all 0.5s;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.darkbar-wrapper-item a {
+  display: flex;
+  gap: 0.3rem;
+  width: 16.5rem;
+  height: 5.4rem;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  color: #f3f3f3;
+  font-family: "open-sans", "Verdana", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  /* padding: 0.5em 0 0 0; */
+}
+
+.darkbar-wrapper > p {
+  text-align: center;
+  font-family: "open-sans", "Verdana", "Helvetica", "Arial", sans-serif;
+}
+
+.darkbar-wrapper-item img {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.darkbar-wrapper.isActive {
+  max-height: 1000px;
+}
+
+.darkbar {
+  display: flex;
+  position: relative;
+  padding: 0.25rem 0.75rem;
+  background-color: #161616;
+  color: white;
+  gap: 1.25rem;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 6;
+}
+
+.btnDarkMenu {
+  height: 100%;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-icon {
+  width: 20px;
+}
+
+.help-icon {
+  width: 12px;
+}
+
+.logo-icon {
+  width: 32px;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.item-group {
+  display: flex;
+  gap: 3rem;
+}
