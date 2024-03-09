@@ -1,0 +1,14 @@
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.5s cubic-bezier(0.5, 0.25, 0.015, 1) 0s,
+    0.5s cubic-bezier(0.5, 0.25, 0.015, 1) 0s;
+  z-index: 10;
+}
+
+body {
+  background-color: #f3f3f3;
+  min-height: 100vh;
+}
