@@ -1,4 +1,4 @@
-# EA-Project-Team 3
+# EA-Project-Team 2
 
 ## Objetivo
 
@@ -8,10 +8,10 @@ El objetivo principal de este tercer proyecto es utilizar la tecnología React p
 
 ## Tecnologías Utilizadas
 
-React
-JavaScript
-HTML
-CSS
+·React
+·JavaScript
+·HTML
+·CSS
 
 ## Metodología y Gestión de Proyectos
 

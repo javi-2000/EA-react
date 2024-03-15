@@ -1,0 +1,149 @@
+.darkbar-wrapper {
+  display: flex;
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  /* padding: 0.5rem; */
+  max-height: 0;
+  right: 0;
+  overflow: hidden;
+  top: 100%;
+  background-color: #101010;
+  transition: ease all 0.5s;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  transition: all 0.5s cubic-bezier(0.5, 0.25, 0.015, 1);
+}
+
+.darkbar-wrapper.isActive {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.darkbar-wrapper-item a {
+  display: flex;
+  gap: 0.4rem;
+  width: 16.5rem;
+  height: auto;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  color: #f3f3f3;
+  font-family: "Open Sans", "Verdana", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  transition: 0.3s ease-in-out;
+}
+
+.darkbar-wrapper-item a:hover {
+  transform: translateY(-5px);
+}
+
+.help-text {
+  position: relative;
+  top: 11px;
+}
+
+.darkbar-wrapper .help-text > p {
+  text-align: center;
+  font-family: "Open Sans", "Verdana", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18.9px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  margin-bottom: 1rem;
+  margin: 0 0 16px 0;
+  color: #f3f3f3;
+  display: block;
+}
+
+.darkbar-wrapper .help-text > p.bold {
+  font-family: "Oswald", "Verdana", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-bottom: 0;
+  margin-top: 12px;
+  text-transform: uppercase;
+}
+
+.darkbar-wrapper .help-text > p a {
+  color: rgb(255, 30, 60);
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.darkbar-wrapper-item img {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.darkbar {
+  display: flex;
+  position: relative;
+  padding: 0 0.75rem;
+  background-color: #101010;
+  color: #ffffff;
+  gap: 1.25rem;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 6;
+}
+
+.btnDarkMenu {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profile-icon,
+.help-icon {
+  width: 18px;
+  height: 18px;
+  padding: 3px;
+  fill: #b1b1b1;
+}
+
+.logo-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: #797979;
+}
+
+.btnDarkMenu:hover .profile-icon,
+.btnDarkMenu:hover .help-icon {
+  fill: #f3f3f3;
+}
+
+.btnDarkMenu:hover .logo-icon {
+  fill: #a3a3a3;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  margin: 25px 0 23px 0;
+}
+
+.item-group {
+  display: flex;
+  gap: 14px 40px;
+}
+
+.darkbar-wrapper .btn-close {
+  position: absolute;
+  top: 42px;
+  right: 32px;
+  cursor: pointer;
+}
