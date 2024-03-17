@@ -15,6 +15,7 @@
   align-items: center;
   gap: 1.5rem;
   transition: all 0.5s cubic-bezier(0.5, 0.25, 0.015, 1);
+  z-index: 2;
 }
 
 .darkbar-wrapper.isActive {
@@ -91,7 +92,7 @@
   gap: 1.25rem;
   justify-content: flex-end;
   align-items: center;
-  z-index: 6;
+  z-index: 3;
 }
 
 .btnDarkMenu {
@@ -146,4 +147,13 @@
   top: 42px;
   right: 32px;
   cursor: pointer;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
 }
