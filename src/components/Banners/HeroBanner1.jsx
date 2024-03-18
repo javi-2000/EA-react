@@ -1,4 +1,4 @@
-import Button from "../Utilities/button";
+import Button from "../Utilities/Button";
 
 export default function HeroBanner1 ({backgroundClassName,backgroundSrc,logoSrc}) {
 
