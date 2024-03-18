@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import HeaderSection from "./components/Header/HeaderSection";
-
 import CardHeader from "./components/Cards/CardHeader";
 import Content1 from "./components/Banners/Content1";
 
