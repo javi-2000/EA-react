@@ -3,7 +3,6 @@
   position: absolute;
   height: 400px;
   width: 100%;
-  /* padding: 0.5rem; */
   max-height: 0;
   right: 0;
   overflow: hidden;
@@ -15,10 +14,14 @@
   align-items: center;
   gap: 1.5rem;
   transition: all 0.5s cubic-bezier(0.5, 0.25, 0.015, 1);
+  z-index: 2;
 }
 
 .darkbar-wrapper.isActive {
   max-height: 400px;
+}
+
+.scroll-lock {
   overflow: hidden;
 }
 
@@ -53,7 +56,6 @@
   font-size: 14px;
   line-height: 18.9px;
   font-weight: 500;
-  letter-spacing: 0.1px;
   margin-bottom: 1rem;
   margin: 0 0 16px 0;
   color: #f3f3f3;
@@ -85,13 +87,22 @@
 .darkbar {
   display: flex;
   position: relative;
-  padding: 0 0.75rem;
   background-color: #101010;
   color: #ffffff;
   gap: 1.25rem;
   justify-content: flex-end;
   align-items: center;
-  z-index: 6;
+  z-index: 3;
+}
+
+.topIcons {
+  display: flex;
+  position: relative;
+  padding: 0 32px;
+  gap: 1.25rem;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 3;
 }
 
 .btnDarkMenu {
@@ -101,6 +112,11 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.btnDarkMenu.isActive .profile-icon,
+.btnDarkMenu.isActive .help-icon {
+  fill: #f3f3f3;
 }
 
 .profile-icon,
@@ -146,4 +162,74 @@
   top: 42px;
   right: 32px;
   cursor: pointer;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+}
+
+@media (width < 768px) {
+  .darkbar-wrapper .help-text {
+    max-width: 75%;
+  }
+
+  .darkbar-wrapper-item a {
+    width: 270px;
+  }
+
+  .darkbar-wrapper .help-text > p {
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .darkbar-wrapper-item a p {
+    text-align: left;
+  }
+
+  .darkbar-wrapper-item {
+    display: flex;
+    gap: 10px;
+  }
+
+  .darkbar-wrapper-item a {
+    flex-direction: row;
+  }
+}
+
+@media (width < 745px) {
+  .darkbar-wrapper-item a {
+    width: 200px;
+  }
+}
+
+@media (width < 543px) {
+  .darkbar-wrapper .help-text {
+    max-width: 85%;
+  }
+
+  .icons {
+    gap: 16px;
+    margin: 14px 0;
+  }
+
+  .item-group {
+    gap: 16px;
+    flex-direction: column;
+  }
+
+  .darkbar-wrapper-item a {
+    width: 272px;
+    flex: 0 0 auto;
+  }
+}
+
+@media (width < 275px) {
+  .darkbar-wrapper-item a {
+    width: 100%;
+  }
 }
