@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../../styles/header/darkbar.css";
 import DarkbarWrapper from "./HeaderDarkbarWrapper";
 import { ProfileIcon, HelpIcon, LogoIcon } from "./HeaderDarkbarIcons";
+import lockScroll from "../../utils/lockScroll";
 
 export default function HeaderDarkbar() {
   const [showContent, setShowContent] = useState("");
@@ -10,33 +11,40 @@ export default function HeaderDarkbar() {
   function handleContent(content) {
     setShowContent(content);
     setShowDarkbar(true);
+    lockScroll(true);
   }
 
   function handleClose() {
+    setShowContent("");
     setShowDarkbar(false);
+    lockScroll(false);
   }
 
   return (
     <div className="darkbar">
-      <span
-        className="btnDarkMenu"
-        onClick={() => {
-          handleContent("profile");
-        }}
-      >
-        <ProfileIcon />
-      </span>
-      <span
-        className="btnDarkMenu"
-        onClick={() => {
-          handleContent("help");
-        }}
-      >
-        <HelpIcon />
-      </span>
-      <span className="btnDarkMenu">
-        <LogoIcon />
-      </span>
+      <div className="topIcons">
+        <span
+          className={`btnDarkMenu ${
+            showContent === "profile" ? "isActive" : ""
+          }`}
+          onClick={() => {
+            handleContent("profile");
+          }}
+        >
+          <ProfileIcon />
+        </span>
+        <span
+          className={`btnDarkMenu ${showContent === "help" ? "isActive" : ""}`}
+          onClick={() => {
+            handleContent("help");
+          }}
+        >
+          <HelpIcon />
+        </span>
+        <span className="btnDarkMenu">
+          <LogoIcon />
+        </span>
+      </div>
       {showDarkbar && <span className="overlay" onClick={handleClose}></span>}
       <DarkbarWrapper
         showContent={showContent}
