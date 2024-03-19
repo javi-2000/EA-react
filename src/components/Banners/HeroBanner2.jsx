@@ -15,9 +15,7 @@ export default function HeroBanner2({
       />
       <div>
         <img src={logoSrc} alt="EA logo not found" />
-        <p>
-          {pText}
-        </p>
+        <p>{pText}</p>
         <Button className={"ButtonBanner2"} buttonText={"Play Now"} />
       </div>
     </div>
