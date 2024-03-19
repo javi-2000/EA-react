@@ -1,0 +1,33 @@
+#terms-container{
+  margin: 48px 76px 0px;
+  display: flex; 
+  justify-content: center;
+
+}
+.terms-p {
+  font-size: 14px;
+  line-height: 21px;
+  text-indent: -0.65em;
+  padding: 0px 0px 16px 0.65em;
+  border-bottom: 1px solid rgb(150, 150, 150);
+  max-width: 1120px;
+  width: 1110px;
+  font-family: "ea-display", "Verdana", "Helvetica", "sans-serif";
+  font-weight: 400;
+  color: rgb(22, 22, 22);
+}
+.terms-a {
+  color: rgb(255, 71, 71);
+  cursor: pointer;
+  text-decoration: none;
+}
+@media (width< 1024px) {
+  #terms-container {
+      margin: 48px 60px 0px;
+  }
+}
+@media (width< 768px) {
+  #terms-container {
+      margin: 32px 22px 0px;
+  }
+}
