@@ -1,0 +1,30 @@
+.local-links-container{
+    display: flex;
+    order:-1;
+    margin-left: 48px;
+    margin-right: 48px;
+
+}
+.local-links{
+
+    display: inline-block;
+    font-family:"ea-display", "Verdana", "Helvetica", "sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #161616cc;
+    margin-right: 10px;
+    
+   
+    
+}
+
+.local-links:hover{
+    color: #ff4747;
+
+}
+

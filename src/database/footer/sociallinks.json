@@ -1,0 +1,8 @@
+[
+    { "icono": "src/media/footer/svg/facebook-icon.svg", "redirectLink": "https://www.facebook.com/EA/" },
+    { "icono": "src/media/footer/svg/twitter-X-icon.svg", "redirectLink": "https://twitter.com/ea" },
+    { "icono": "src/media/footer/svg/youtube-icon.svg", "redirectLink": "https://www.youtube.com/EA" },
+    { "icono": "src/media/footer/svg/instagram-icon.svg", "redirectLink": "https://www.instagram.com/ea/" },
+    { "icono": "src/media/footer/svg/twitch-icon.svg", "redirectLink": "https://www.twitch.tv/ea" },
+    { "icono": "src/media/footer/svg/linkedIn-icon.svg", "redirectLink": "https://www.linkedin.com/company/electronic-arts/" }
+]
