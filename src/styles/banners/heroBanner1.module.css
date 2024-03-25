@@ -9,7 +9,7 @@
 }
 
 
-.HeroBanner1 div{
+.HeroBanner1 > div{
     position: absolute;
     top: 50%;    
     left: 50%;
@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-.HeroBanner1 img{
+.HeroBanner1 > img{
     margin-bottom: -300px;
     width: 100%;
     height: auto;
@@ -37,8 +37,6 @@
     background-color: #ff4747;
     transition: 0.1s;
     box-shadow: 0 0 0 0px #ff4747 ;
-    display: flex;
-    justify-content: center;
 }
 
 .CustomButton:hover {
@@ -46,7 +44,7 @@
     border-radius: 1px;
 }
 
-.CustomButton span {
+.CustomButton > span {
     color: #F3F3F3;
     margin: 20px 8px 8px 8px;
     font-family:'ea-text';

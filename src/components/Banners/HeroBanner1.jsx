@@ -1,21 +1,16 @@
 import Button from "../Utilities/Button";
-import "./styles/banners/heroBanner1.css";
-
+import styles from "../../styles/banners/heroBanner1.module.css";
 
 export default function HeroBanner1({ backgroundSrc }) {
   return (
-    <div className="HeroBanner1">
-      <img
-        className="backgroundclass"
-        src={backgroundSrc}
-        alt="HeroBannerBackground not found"
-      />
+    <div className={styles.HeroBanner1}>
+      <img src={backgroundSrc} alt="HeroBannerBackground not found" />
       <div>
         <img
           src="./src/media/banners/banner1/apex-legends-breakout-logo.svg"
           alt="Apex Legends logo not found"
         />
-        <Button className="CustomButton" buttonText={"Play Now"} />
+        <Button className={styles.CustomButton} buttonText={"Play Now"} />
       </div>
     </div>
   );
