@@ -1,0 +1,157 @@
+.lightbar {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 56px;
+  z-index: 1;
+  padding: 2px 0 0 15px;
+}
+
+.lightbar-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.lateral-menu {
+  margin-right: 31px;
+}
+
+.lightbar .logo-mobile {
+  display: none;
+}
+
+.lightbar .logo {
+  margin: 3px 36px 0 78px;
+}
+
+.lightbar h2 {
+  font-family: "ea-display", "Verdana", "Helvetica", "sans-serif";
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.btn-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 20px;
+  transition: fill 0.7s, transform 0.3s;
+}
+
+.btn-open:hover {
+  transform: scale(1.2);
+}
+
+.lightbar .btn-mobile {
+  display: none;
+}
+
+.lightbar .kebab-icon {
+  width: 5px;
+  height: 5px;
+  display: block;
+  background-color: #161616;
+  border-radius: 100%;
+  position: relative;
+}
+
+.lightbar .kebab-icon::after,
+.lightbar .kebab-icon::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  display: block;
+  background-color: #161616;
+  border-radius: 100%;
+  /* margin: 2px 0; */
+  position: absolute;
+}
+
+.btn-open .kebab-icon::after {
+  bottom: -8px;
+}
+
+.btn-open .kebab-icon::before {
+  top: -7.5px;
+}
+
+.btn-open:hover .kebab-icon,
+.btn-open:hover .kebab-icon::after,
+.btn-open:hover .kebab-icon::before {
+  background-color: #ff4747;
+}
+
+@media (width < 1025px) {
+  .lightbar .item,
+  .lightbar .category,
+  .lightbar .dropdown-arrow {
+    display: none;
+  }
+
+  .lightbar .logo {
+    margin-left: 16px;
+    width: 194px;
+    height: 23px;
+  }
+
+  .btn-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    transition: 0.3s;
+  }
+
+  .lightbar .btn-desktop {
+    display: none;
+  }
+
+  .lightbar .btn-mobile {
+    display: flex;
+  }
+
+  .lightbar .burger-icon {
+    width: 20px;
+    height: 1px;
+    display: block;
+    background-color: #161616;
+    position: relative;
+  }
+
+  .lightbar .burger-icon::after,
+  .lightbar .burger-icon::before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    display: block;
+    background-color: #161616;
+    position: absolute;
+  }
+
+  .btn-open .burger-icon::after {
+    top: 6px;
+  }
+
+  .btn-open .burger-icon::before {
+    bottom: 6px;
+  }
+
+  .btn-open:hover .burger-icon,
+  .btn-open:hover .burger-icon::after,
+  .btn-open:hover .burger-icon::before {
+    background-color: #ff4747;
+  }
+}
+
+@media (width < 768px) {
+  .lightbar .logo {
+    margin-left: 16px;
+    width: 110px;
+    height: 13px;
+  }
+}
