@@ -1,0 +1,22 @@
+import { useState, useEffect } from "react";
+
+export default function useScroll() {
+  const [scrollDirection, setScrollDirection] = useState(null);
+  const [scrollHeight, setScrollHeight] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollHeight = window.scrollY;
+      setScrollDirection(currentScrollHeight > scrollHeight ? "down" : "up");
+      setScrollHeight(currentScrollHeight);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrollHeight]);
+
+  return { scrollDirection, scrollHeight };
+}

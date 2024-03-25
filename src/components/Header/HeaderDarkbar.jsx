@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../../styles/header/darkbar.css";
 import DarkbarWrapper from "./HeaderDarkbarWrapper";
 import { ProfileIcon, HelpIcon, LogoIcon } from "./HeaderDarkbarIcons";
-import lockScroll from "../../utils/lockScroll";
+import { Helmet } from "react-helmet";
 
 export default function HeaderDarkbar() {
   const [showContent, setShowContent] = useState("");
@@ -11,17 +11,18 @@ export default function HeaderDarkbar() {
   function handleContent(content) {
     setShowContent(content);
     setShowDarkbar(true);
-    lockScroll(true);
   }
 
   function handleClose() {
     setShowContent("");
     setShowDarkbar(false);
-    lockScroll(false);
   }
 
   return (
     <div className="darkbar">
+      <Helmet>
+        <body className={`darkbar ${showDarkbar ? "scroll-lock" : ""}`} />
+      </Helmet>
       <div className="topIcons">
         <span
           className={`btnDarkMenu ${
