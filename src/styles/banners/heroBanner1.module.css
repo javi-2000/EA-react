@@ -1,0 +1,182 @@
+.HeroBanner1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 35.625rem;
+    box-sizing: border-box;
+    line-height:0px;
+    overflow: hidden;
+}
+
+
+.HeroBanner1 > div{
+    position: absolute;
+    top: 50%;    
+    left: 50%;
+    transform: translate(8.95rem,-10.6rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeroBanner1 > img{
+    margin-bottom: -300px;
+    width: 100%;
+    height: auto;
+
+}
+
+.CustomButton {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 0.4em;
+    border: solid 1px #ff4747;
+    border-radius: 3px;
+    padding: 28px 37px 28px 37px;
+    background-color: #ff4747;
+    transition: 0.1s;
+    box-shadow: 0 0 0 0px #ff4747 ;
+}
+
+.CustomButton:hover {
+    box-shadow: 0 0 0 0.2rem #ff4747 ;
+    border-radius: 1px;
+}
+
+.CustomButton > span {
+    color: #F3F3F3;
+    margin: 20px 8px 8px 8px;
+    font-family:'ea-text';
+    font-weight: 500;
+    font-size: 1.08rem;
+    margin-left: 0.8rem;
+    margin-right: .8rem;     
+    
+}
+
+
+@media (min-width: 1024px) and (max-width: 1455px) {
+        #content1{
+            margin: 128px 0 0 0;
+        }
+        #heroBanner1 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 32.2rem;
+            box-sizing: border-box;
+            line-height:0px;
+            overflow: hidden;        
+        }
+        #heroBannerContent1{
+            transform: translate(10.82rem,-10.6rem);
+        }
+        #heroBannerUnder1 {
+            overflow: hidden;
+            height: 6rem;
+            position: relative;
+        }
+        #heroBannerUnderText1 {
+            position: absolute;
+            left: 60%;
+            right: unset;
+            top: 1.2rem;
+            max-width: 30rem;
+            padding: 0;
+            font-family: 'ea-display';
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #f3f3f3;
+        }
+        #ButtonUnderBannerContent1 {
+            position: absolute;
+            cursor: pointer;
+            right: 60%;
+            top: 1.2rem;
+            transform: translate(34.1rem);
+            border: solid 1px #f3f3f3;
+            border-radius: 3px;
+            padding: 17px 25px 17px 25px;
+            background-color: #F3F3F3;
+            transition: 0.1s;
+            box-shadow: 0 0 0 0px #F3F3F3 ;  
+        }        
+    }
+
+@media (max-width: 1023px) {
+    #content1{
+        margin-top: 124px;
+    }
+    #heroBanner1 {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: 28.38rem;
+        box-sizing: border-box;
+        line-height:0px;
+        overflow: hidden;
+    
+    }
+    #heroBannerContent1{
+        transform: translate(4.88rem,-11.5rem);
+    }
+    #heroBannerUnder1{
+        height: 10.2rem;
+    }
+    #ButtonUnderBannerContent1 {
+        position: absolute;
+        cursor: pointer;
+        right: unset;
+        left: 50%;
+        top: 4.8rem;
+        transform: translate(-50%);
+        border: solid 1px #f3f3f3;
+        border-radius: 3px;
+        padding: 17px 25px 17px 25px;
+        background-color: #F3F3F3;
+        transition: 0.1s;
+        box-shadow: 0 0 0 0px #F3F3F3 ;  
+    }
+    #heroBannerUnderText1 {
+        position: absolute;
+        left: 50%;
+        right: unset;
+        transform: translate(-31%);
+        top: 1.8rem;
+        max-width: unset;
+        width: 60rem;
+        padding: 0;
+        font-family: 'ea-display';
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #f3f3f3;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    #content1{
+        margin-top: 120px;
+    }
+    #heroBanner1{
+        height: 34.5rem;
+
+    }
+    #heroBannerContent1{
+        left: 50%;
+        transform: translate(-49.5%,-11.9rem);
+    }
+}
+
+    /* para botones que se ensanchan hasta margen */
+@media (max-width: 639px) {
+
+    #heroBannerContent1{
+        width: 100%;
+    }
+    #ButtonBannerContent1 {
+        width: 63%;
+        text-align: center;
+    }
+}
