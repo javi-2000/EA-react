@@ -31,12 +31,11 @@ export default function Content1() {
 
   const handleHeroResize = (sourceArray) => {
     setHeroBannerSrc(FindCorrectImageSource(sourceArray));
-  
   };
 
   const handleSmallResize = (sourceArray) => {
     setSmallBannerSrc(FindCorrectImageSource(sourceArray));
-  }
+  };
 
   useEffect(() => {
     window.addEventListener("load", () => {
@@ -56,12 +55,9 @@ export default function Content1() {
   }, []);
 
   return (
-    <div>
-      <HeroBanner1
-        backgroundSrc={heroBannerSrc}
-        logoSrc="./src/media/banners/banner1/apex-legends-breakout-logo.svg"
-      />
-      <SmallBanner1 backgroundSrc={smallBannerSrc} text={"LEARN MORE ABOUT EA SPORTS™ WRC SEASON 3"} />
+    <div className="Content1">
+      <HeroBanner1 backgroundSrc={heroBannerSrc} />
+      <SmallBanner1 backgroundSrc={smallBannerSrc} />
     </div>
   );
 }
