@@ -1,4 +1,4 @@
-@import url("fonts.css");
+@import url("../fonts.css");
 
 .card-section-title {
   display: flex;
@@ -10,11 +10,17 @@
 }
 .select-container {
   display: flex;
+  font-family: "ea-text", "Verdana", "Helvetica", "sans-serif";
+  font-weight: 500;
   max-width: 65%;
   margin: 0 auto;
   justify-content: flex-start;
   margin-left: 5rem;
   white-space: nowrap;
+  font-size: 1.2rem;
+  border-bottom: 1.5px solid rgba(108, 108, 108, 0.295);
+  height: 40%;
+  justify-content: space-between;
 }
 
 .select {
@@ -23,17 +29,12 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  border-right: 1.5px solid rgba(108, 108, 108, 0.295);
+  padding: 0 1rem;
+  margin-bottom: 10px;
 }
 
-.select-text {
-  font-size: 1.2rem;
-  border-right: 1.5px solid rgba(108, 108, 108, 0.295);
-  height: 40%;
-  padding: 0 1rem;
-  margin: 0;
-  font-family: "ea-text", "Verdana", "Helvetica", "sans-serif";
-  font-weight: 500;
-}
+
 
 .select:hover {
   background-color: rgb(218, 218, 218);
@@ -64,7 +65,7 @@
   top: 58px;
 }
 
-#cards-container {
+.card {
   max-width: 75%;
   margin: 3rem auto;
   display: grid;
@@ -72,7 +73,7 @@
   grid-gap: 1.3rem;
 }
 
-.card {
+.card-link {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,7 +83,7 @@
   animation: fadeInUp 0.5s ease;
 }
 
-.card:hover {
+.card-link:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 15px 10px rgba(0, 0, 0, 0.298);
 }

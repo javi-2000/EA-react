@@ -1,3 +1,5 @@
+import "../../styles/cards/cards.css";
+
 export default function Card( {tabs, tabId} ){
 
     return(

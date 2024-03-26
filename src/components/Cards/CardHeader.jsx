@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { tabFetching } from "../../services/tabFetch"
 import CardTab from "./CardTab"
+import "../../styles/cards/cards.css";
 
 
 export default function CardHeader(){

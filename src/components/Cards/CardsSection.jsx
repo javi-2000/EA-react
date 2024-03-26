@@ -1,5 +1,6 @@
 import CardHeader from "./Components/CardHeader"
 import Card from "./Components/Card"
+import "../../styles/cards/cards.css";
 
 export default function CardsSection(){
 
